@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { PixelButton } from 'components/Retro'
+import { PixelButton } from '@/components/Retro/PixelButton'
 import { supabase } from '@/lib/supabase'
 import { useRouter } from 'next/navigation'
 

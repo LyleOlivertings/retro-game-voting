@@ -1,7 +1,7 @@
 // pages/index.js
 "use client" ;
 
-import { PixelButton } from '../components/Retro'
+import { PixelButton } from '../components/Retro/PixelButton'
 import { FaStar, FaSkull, FaArrowRight } from 'react-icons/fa'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
