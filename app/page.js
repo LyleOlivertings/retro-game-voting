@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
 export default function HomePage() {
-  const router = useRouter()
+  const router = useRouter();
   
   // Fake visitor counter (replace with real one later)
   const [visitorCount] = useState(Math.floor(Math.random() * 10000) + 1337)

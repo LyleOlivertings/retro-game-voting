@@ -1,5 +1,5 @@
 import { Press_Start_2P } from 'next/font/google'
-import './globals.css'
+import './styles.css'
 
 const pressStart = Press_Start_2P({
   subsets: ['latin'],
