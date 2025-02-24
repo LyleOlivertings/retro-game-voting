@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  // Remove experimental if not needed
+  experimental: {
+    serverActions: true,
+  },
   images: {
-    domains: ['your-image-domains.com'],
+    domains: ['github.com'],
   },
 }
 
