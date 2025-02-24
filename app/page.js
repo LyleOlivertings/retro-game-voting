@@ -5,7 +5,8 @@ import { PixelButton } from '../components/Retro/PixelButton'
 import { FaStar, FaSkull, FaArrowRight } from 'react-icons/fa'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import Link from 'next/link';
+import Link from 'next/link'
+
 
 export default function HomePage() {
   const router = useRouter();
@@ -74,10 +75,12 @@ export default function HomePage() {
                    |||||
                 `}
               </div>
-
-             <PixelButton onClick={() => router.push('/results')}>
-                <FaArrowRight /> ENTER SITE
-              </PixelButton>
+                  
+              <div className="navigation-buttons">
+        <Link href="/vote">
+          <PixelButton>VOTE NOW</PixelButton>
+        </Link>
+      </div>
             </div>
           </div>
 
