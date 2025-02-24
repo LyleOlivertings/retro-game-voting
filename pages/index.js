@@ -1,5 +1,5 @@
 // pages/index.js
-"use client";
+
 
 import { PixelButton } from '../components/Retro'
 import { FaStar, FaSkull, FaArrowRight } from 'react-icons/fa'
