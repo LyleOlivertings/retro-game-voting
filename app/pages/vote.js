@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { PixelButton } from '../components/Retro'
+import { PixelButton } from '../../components/Retro'
 import { useRouter } from 'next/navigation'
-import { supabase } from '../lib/supabase'
+import { supabase } from '../../lib/supabase'
 
 const games = [
   { id: 1, name: 'LEAGUE', year: 1993 },
