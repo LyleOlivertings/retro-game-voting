@@ -1,15 +1,16 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Press_Start_2P } from 'next/font/google'
+import './styles.css'
 
-export default function Document() {
+const pressStart = Press_Start_2P({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-press-start',
+})
+
+export default function MyApp({ Component, pageProps }) {
   return (
-    <Html>
-      <Head>
-        {/* Add other head elements here */}
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
+    <main className={`${pressStart.variable} font-sans`}>
+      <Component {...pageProps} />
+    </main>
   )
 }

@@ -1,9 +1,9 @@
 // pages/index.js
-
+"use client" ;
 
 import { PixelButton } from '../components/Retro'
 import { FaStar, FaSkull, FaArrowRight } from 'react-icons/fa'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
 export default function HomePage() {
